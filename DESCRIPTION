@@ -1,12 +1,13 @@
 Package: aws.ses
 Type: Package
 Title: AWS SES Client Package
-Version: 0.1.5
+Version: 0.1.6
 Date: 2017-06-30
 Authors@R: c(person("Thomas J.", "Leeper", role = c("aut"),
                     email = "thosjleeper@gmail.com",
-                    comment = c(ORCID = "0000-0003-4097-6326")))
-Maintainer: ORPHANED
+                    comment = c(ORCID = "0000-0003-4097-6326")),
+              person("James", "Petticrew", role=c("cre"),
+              email="jamesmpetticrew@gmail.com"))
 Description: A simple client package for the Amazon Web Services (AWS) Simple
     Email Service (SES) <http://aws.amazon.com/ses/> REST API.
 License: GPL (>= 2)
@@ -18,4 +19,5 @@ Suggests:
     aws.sns
 URL: https://github.com/cloudyr/aws.ses
 BugReports: https://github.com/cloudyr/aws.ses/issues
-RoxygenNote: 6.0.1
+RoxygenNote: 7.2.3
+Encoding: UTF-8

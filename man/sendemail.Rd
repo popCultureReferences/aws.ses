@@ -6,9 +6,22 @@
 \alias{get_statistics}
 \title{Send Email via SES}
 \usage{
-send_email(message, html, raw = NULL, subject, from, to = NULL, cc = NULL,
-  bcc = NULL, replyto = NULL, returnpath = NULL, charset.subject = NULL,
-  charset.message = NULL, charset.html = NULL, ...)
+send_email(
+  message,
+  html,
+  raw = NULL,
+  subject,
+  from,
+  to = NULL,
+  cc = NULL,
+  bcc = NULL,
+  replyto = NULL,
+  returnpath = NULL,
+  charset.subject = NULL,
+  charset.message = NULL,
+  charset.html = NULL,
+  ...
+)
 
 get_quota(...)
 

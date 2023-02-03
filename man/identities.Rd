@@ -7,8 +7,12 @@
 \alias{delete_id}
 \title{SES Identities}
 \usage{
-list_ids(type = c("EmailAddress", "Domain"), nmax = NULL,
-  next_token = NULL, ...)
+list_ids(
+  type = c("EmailAddress", "Domain"),
+  nmax = NULL,
+  next_token = NULL,
+  ...
+)
 
 verify_id(address, domain, ...)
 

@@ -4,10 +4,17 @@
 \alias{sesPOST}
 \title{SES HTTP Requests}
 \usage{
-sesPOST(query = list(), headers = list(), body = NULL,
+sesPOST(
+  query = list(),
+  headers = list(),
+  body = NULL,
   verbose = getOption("verbose", FALSE),
-  region = Sys.getenv("AWS_DEFAULT_REGION", "us-east-1"), key = NULL,
-  secret = NULL, session_token = NULL, ...)
+  region = Sys.getenv("AWS_DEFAULT_REGION", "us-east-1"),
+  key = NULL,
+  secret = NULL,
+  session_token = NULL,
+  ...
+)
 }
 \arguments{
 \item{query}{A list containing query string parameters}
